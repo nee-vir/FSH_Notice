@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".CategorySelectionActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/category_select_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Select Category"
+        android:textSize="36dp"/>
+
+    <Button
+        android:id="@+id/ca_button"
+        android:layout_below="@id/category_select_label"
+        android:layout_width="wrap_content"
+        android:background="@drawable/ca_bbg"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Computer Applications" />
+
+    <Button
+        android:id="@+id/cs_button"
+        android:layout_below="@id/ca_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/cs_bbg"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Computer Science" />
+
+    <Button
+        android:id="@+id/vis_com_button"
+        android:layout_below="@+id/cs_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/vc_bbg"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Visual Communication" />
+
+    <Button
+        android:id="@+id/maths_button"
+        android:layout_below="@id/vis_com_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/maths_bbg"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Mathematics" />
+
+    <Button
+        android:id="@+id/lauguage_button"
+        android:layout_below="@id/maths_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lang_bbg"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Language" />
+
+    <Button
+        android:id="@+id/bio_tech_button"
+        android:layout_below="@id/lauguage_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/bt_bbg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="BioTech" />
+
+    </RelativeLayout>
+</ScrollView>

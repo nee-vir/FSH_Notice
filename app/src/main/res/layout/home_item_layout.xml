@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightpink"
+    android:layout_margin="10dp"
+    android:id="@+id/item_parent_layout">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/lighterpink"
+        android:text="Try Your Best, Never Give Up!"
+        android:textSize="20dp"
+        android:textColor="@color/kindblue"
+        android:layout_margin="5dp"
+        android:id="@+id/item_title_view" />
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/item_title_view"
+        android:background="@color/white"
+        android:id="@+id/title_divider"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_divider"
+        android:text="Department"
+        android:background="@color/purple"
+        android:layout_margin="5dp"
+        android:id="@+id/department_text_view"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Posted By: "
+        android:layout_below="@id/department_text_view"
+        android:layout_margin="5dp"
+        android:id="@+id/posted_by_text_view"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue1"
+        android:text="Neevir Chakma"
+        android:layout_toRightOf="@+id/posted_by_text_view"
+        android:layout_below="@id/department_text_view"
+        android:layout_margin="5dp"
+        android:id="@+id/publisher_text_view"/>
+
+
+</RelativeLayout>

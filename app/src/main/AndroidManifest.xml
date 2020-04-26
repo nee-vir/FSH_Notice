@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fsh_notice">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".notice_boards.CommonNotice"></activity>
+        <activity android:name=".entire_posts.EntirePosts" />
+        <activity android:name=".notice_boards.VisCom" />
+        <activity android:name=".notice_boards.BioTech" />
+        <activity android:name=".notice_boards.Language" />
+        <activity android:name=".notice_boards.Mathematics" />
+        <activity android:name=".notice_boards.ComputerScience" />
+        <activity android:name=".notice_boards.ComputerApplications" />
+        <activity android:name=".CategorySelectionActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity
+            android:name=".NavigationDrawer"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".EntirePostActivity" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

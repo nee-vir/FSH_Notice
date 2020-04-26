@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/dp_bg"
+    android:id="@+id/dp_parent_layout">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="User name"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="230dp"
+        android:layout_below="@id/dp_title"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:id="@+id/dp_username"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/dp_title"
+        android:text="Hello its me,how are you all it is great to see you all"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:textSize="15dp"
+        android:padding="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/dp_title"
+        android:text="BCA"
+        android:layout_marginTop="25dp"
+        android:id="@+id/dp_course" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/dp_title"
+        android:layout_toRightOf="@+id/dp_course"
+        android:text="III Year"
+        android:id="@+id/dp_year" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/dp_course"
+        android:textColor="@color/white"
+        android:id="@+id/dp_date_time"
+        android:text="22 Feb 2020 8:55:48 pm"/>
+
+
+</RelativeLayout>
